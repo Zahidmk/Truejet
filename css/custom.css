@@ -12,7 +12,7 @@
 	position: relative;
 	text-align: center;
 	padding: 170px 0px 70px;
-	height: 90vh;
+	height: 100vh;
 }
 
 .banner-one.style-two{
@@ -2545,6 +2545,11 @@
 	background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(0,0,0,0.50) 100%);
 }
 
+.gallery-block_one .overlay-box .plus img{
+	width: 20px;
+	height: 20px;
+}
+
 .gallery-block_one-inner:hover .overlay-box{
 	-webkit-transform: scale(1, 1);
 	-ms-transform: scale(1, 1);
@@ -2566,6 +2571,9 @@
 	color:var(--white-color);
 	font-family: "flaticon_sky-flat";
 	background-color:var(--main-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /*** 

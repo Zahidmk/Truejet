@@ -292,9 +292,7 @@ url("../fonts/flaticon_sky-flat.svg#Flaticon") format("svg");
 .flaticon-iphone:before {
     content: "\f15e";
 }
-.flaticon-link:before {
-    content: "\f15f";
-}
+
 .flaticon-star:before {
     content: "\f160";
 }
