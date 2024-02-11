@@ -38,6 +38,10 @@
 	position: relative;
 }
 
+.footer-social_box svg{
+	color: #fff !important;
+}
+
 .footer-social_box a{
 	position: relative;
 	line-height: 1em;

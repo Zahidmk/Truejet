@@ -13,6 +13,9 @@
 	text-align: center;
 	padding: 170px 0px 70px;
 	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .banner-one.style-two{
@@ -659,7 +662,7 @@
 
 .package-one{
 	position: relative;
-	padding: 100px 0px 80px;
+	padding: 100px 0px 0px;
 }
 
 .package-one_more{
@@ -3463,9 +3466,9 @@
 	.gallery-three .owl-nav .owl-next{
 	
 		width: 40px;
-		height: 70px;
+		height: 40px;
 		font-size: var(--font-16);
-	border: 4px solid var(--white-color);
+	border: 2px solid var(--white-color);
 	line-height: 40px;
 		display: flex;
 		justify-content: center;
@@ -3475,14 +3478,14 @@
 	.gallery-three .owl-nav .owl-prev{
 
 		width: 40px;
-		height: 70px;
+		height: 40px;
 		line-height: 40px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		
 		font-size: var(--font-16);
-		border: 4px solid var(--white-color);
+		border: 2px solid var(--white-color);
 		
 	}
 }
