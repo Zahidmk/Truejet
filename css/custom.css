@@ -11,7 +11,7 @@
 .banner-one{
 	position: relative;
 	text-align: center;
-	padding: 170px 0px 70px;
+	padding: 0px 0px 70px;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -106,10 +106,11 @@
 .banner-one_title{
 	position: relative;
 	font-weight: 500;
-	letter-spacing: 0.25em;
+	letter-spacing: 0.15em;
 	font-size: var(--font-32);
 	text-transform: uppercase;
 	color: var(--white-color);
+	margin-bottom: 24px;
 	
 	opacity: 1;
 	transform:translateY(0px);
@@ -137,7 +138,7 @@
 
 .banner-one_heading{
 	position: relative;
-	font-size: 200px;
+	font-size: 120px;
 	font-weight: 700;
 	line-height: 1em;
 	color: var(--white-color);
@@ -8524,4 +8525,14 @@
     width: 30px;
     fill: white;
     background: transparent;
+}
+
+
+/* hero-section */
+
+.hero_cta-buttons{
+	display: flex;
+	gap: 16px;
+	justify-content: center;
+	margin-top: 60px;
 }
