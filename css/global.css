@@ -821,7 +821,7 @@ img{
     background-color: var(--main-color);
 }
 
-.btn-style-two::before{
+/* .btn-style-two::before{
 	-webkit-transition-duration: 800ms;
 	transition-duration: 800ms;
 	position: absolute;
@@ -842,7 +842,7 @@ img{
 
 .btn-style-two:hover::before{
     top: -20px;
-}
+} */
 
 .btn-style-two .btn-wrap{
 	position:relative;
@@ -907,7 +907,7 @@ img{
     border: 1px solid var(--main-color);
 }
 
-.btn-style-three::before{
+/* .btn-style-three::before{
 	-webkit-transition-duration: 800ms;
 	transition-duration: 800ms;
 	position: absolute;
@@ -924,7 +924,7 @@ img{
 	-webkit-transition:all 600ms ease;
 	-ms-transition:all 600ms ease;
 	-o-transition:all 600ms ease;
-}
+} */
 
 .btn-style-three:hover::before{
     top: -40px;
@@ -963,7 +963,7 @@ img{
     transition: all 0.3s ease;
 }
 
-.btn-style-three:hover .btn-wrap .text-two{
+/* .btn-style-three:hover .btn-wrap .text-two{
 	top: 50%;
     -webkit-transform: translateY(-50%); 
     -ms-transform: translateY(-50%);
@@ -980,7 +980,8 @@ img{
 
 .btn-style-three:hover{
     border-color: var(--main-color);
-}
+    color: #fff;
+} */
 
 /* Btn Style Four */
 
