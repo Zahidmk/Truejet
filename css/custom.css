@@ -8536,3 +8536,9 @@
 	justify-content: center;
 	margin-top: 60px;
 }
+
+@media(max-width:768px){
+	.hero_cta-buttons{
+		flex-direction: column;
+	}
+}
