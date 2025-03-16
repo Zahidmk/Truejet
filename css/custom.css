@@ -1911,7 +1911,6 @@
 	font-size: var(--font-16);
 	display: inline-block;
 	margin-top: var(--margin-top-10);
-	padding-left: var(--padding-left-30);
 }
 
 .location-block_one-location svg{
@@ -2160,7 +2159,7 @@
 .progress-one{
 	position: relative;
 	padding: 100px 0px 160px;
-	background-color: var(--color-three);
+	/* background-color: var(--color-three); */
 	background-repeat: no-repeat;
 }
 .progress-one .sec-title_two.light .bid-title {
@@ -3497,11 +3496,11 @@
 	}
 }
 
-.gallery-three .owl-nav .owl-prev:hover,
+/* .gallery-three .owl-nav .owl-prev:hover,
 .gallery-three .owl-nav .owl-next:hover{
 	color: var(--white-color);
 	background-color: var(--color-two);
-}
+} */
 
 .gallery-three .owl-carousel .owl-stage-outer{
 	padding-bottom: var(--padding-bottom-55);
