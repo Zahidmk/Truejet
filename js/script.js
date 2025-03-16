@@ -4,15 +4,17 @@
 	
 	
 	//Hide Loading Box (Preloader)
+
+
 	function handlePreloader() {
 		if($('.loader-wrap').length){
-			$('.loader-wrap').delay(1000).fadeOut(500);
+			$('.loader-wrap').delay(300).fadeOut(200);
 		}
 	}
 
 	if ($(".preloader-close").length) {
         $(".preloader-close").on("click", function(){
-            $('.loader-wrap').delay(200).fadeOut(500);
+            $('.loader-wrap').delay(100).fadeOut(200);
         })
     }
 	
@@ -67,14 +69,6 @@
 			$(this).prev('.mega-menu').slideToggle(500);
 		});
 
-		//Disable dropdown parent link
-		//$('.main-header .navigation li.dropdown > a,.hidden-bar .side-menu li.dropdown > a').on('click', function(e) {
-			//e.preventDefault();
-		//});
-		
-		//$('.price-block .features .arrow').on('click', function(e) {
-			//$(e.target.offsetParent.offsetParent.offsetParent).toggleClass('active-show-hidden')
-		//});
 		
 		$('.hamburger').on('click', function(e) {
 			$('.about-sidebar').addClass('active');
@@ -94,72 +88,6 @@
 		
 	}
 	
-	
-	
-	function sortableMasonry() {
-		if($('.sortable-masonry').length){
-	
-			var winDow = $(window);
-			// Needed variables
-			var $container=$('.sortable-masonry .items-container');
-			var $filter=$('.filter-tabs');
-	
-			$container.isotope({
-				filter:'*',
-				 masonry: {
-					columnWidth : '.masonry-item.col-lg-4'
-				 },
-				animationOptions:{
-					duration:500,
-					easing:'linear'
-				}
-			});
-			// Isotope Filter 
-			$filter.find('li').on('click', function(){
-				var selector = $(this).attr('data-filter');
-	
-				try {
-					$container.isotope({ 
-						filter	: selector,
-						animationOptions: {
-							duration: 500,
-							easing	: 'linear',
-							queue	: false
-						}
-					});
-				} catch(err) {
-	
-				}
-				return false;
-			});
-	
-	
-			winDow.bind('resize', function(){
-				var selector = $filter.find('li.active').attr('data-filter');
-
-				$container.isotope({ 
-					filter	: selector,
-					animationOptions: {
-						duration: 500,
-						easing	: 'linear',
-						queue	: false
-					}
-				});
-			});
-	
-	
-			var filterItemA	= $('.filter-tabs li');
-	
-			filterItemA.on('click', function(){
-				var $this = $(this);
-				if ( !$this.hasClass('active')) {
-					filterItemA.removeClass('active');
-					$this.addClass('active');
-				}
-			});
-		}
-	}
-	sortableMasonry();
 	
 	
 	var swiper = new Swiper(".mySwiper", {
@@ -239,25 +167,6 @@
 
 
 
-
-	
-	//Parallax Scene for Icons
-	if($('.parallax-scene-1').length){
-		var scene = $('.parallax-scene-1').get(0);
-		var parallaxInstance = new Parallax(scene);
-	}
-	if($('.parallax-scene-2').length){
-		var scene = $('.parallax-scene-2').get(0);
-		var parallaxInstance = new Parallax(scene);
-	}
-	if($('.parallax-scene-3').length){
-		var scene = $('.parallax-scene-3').get(0);
-		var parallaxInstance = new Parallax(scene);
-	}
-	if($('.parallax-scene-4').length){
-		var scene = $('.parallax-scene-4').get(0);
-		var parallaxInstance = new Parallax(scene);
-	}
 	
 	
 	

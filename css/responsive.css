@@ -1465,7 +1465,7 @@
 	}
 
 	.gallery-block_two-price{
-		margin-top: var(--margin-top-10);
+		/* margin-top: var(--margin-top-10); */
 		margin-left: var(--margin-zero);
 	}
 

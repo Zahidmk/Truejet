@@ -418,7 +418,7 @@ html {
     overflow-x: hidden;
 }
 body {
-	font-family:var(--font-family-Poppins);
+    font-family: "Poppins", sans-serif;
 	font-size:14px;
 	color:var(--black-color);
 	line-height:1.6em;
